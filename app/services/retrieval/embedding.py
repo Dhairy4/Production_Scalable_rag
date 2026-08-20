@@ -11,7 +11,7 @@ FALLBACK_DIM = 768 # all-mpent-base-v2
 
 
 active_model = None
-model_type = str | None = None
+model_type = str or None
 
 def probe_gemini():
     """
