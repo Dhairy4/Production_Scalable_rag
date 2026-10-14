@@ -47,11 +47,9 @@ DATA/
 Clone the repository and create a virtual environment:
 
 ```bash
-git clone <your-repository-url>
-cd Productioh_RAG_1_Krish_naik
-python3.13 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+git clone https://github.com/Dhairy4/Production_Scalable_rag.git
+cd Production_Scalable_rag
+uv sync
 ```
 
 Alternatively, this repository includes `pyproject.toml` and `uv.lock`, so you can use `uv sync` if you use uv.
